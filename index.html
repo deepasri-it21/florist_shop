@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flower Shop</title>
+    <style>
+        /* styles for header */
+        header {
+            background-color:purple;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+
+        /* styles for nav */
+        nav {
+            background-color:darkolivegreen;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+
+        /* styles for main */
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+        .product {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 2px 2px 2px #ccc;
+            margin: 20px;
+            padding: 20px;
+            width: 300px;
+        }
+        .product h2 {
+            margin-top: 0;
+        }
+        .product p {
+            margin-bottom: 0;
+        }
+
+        /* styles for footer */
+        footer {
+            background-color:purple;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        .product{
+            background-color:antiquewhite;
+        }
+        body{
+            background-color:darkgray;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="color:white">Florist Shop</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">Contact Us</a>
+    </nav>
+
+    <main>
+        <div class="product">
+            <h2>Roses</h2>
+            <img src="./assets/rose.jpg"width="300" height="500" >
+            <p>Price: $20</p>
+            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+
+        <div class="product">
+            <h2>Tulips</h2>
+            <img src="./assets/tulip.jpg" width="300" height="500">
+            <p>Price: $15</p>
+            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+
+        <div class="product">
+            <h2>Orchids</h2>
+            <img src="./assets/orchids.jpg" width="300" height="500">
+            <p>Price: $25</p>
+            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+
+    
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Florist Shop</p>
+    </footer>
+</body>
+</html>
